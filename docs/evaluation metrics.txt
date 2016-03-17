@@ -1,0 +1,23 @@
+evaluation metrics
+1.accuracy
+2.confusion matrix
+3.Area Under Curve
+
+
+Accuracy:
+acc=No.of correct predictions/Total No.of predictions
+
+Confusion Matrix:
+
+							Error			Error-free
+Predicted as error			 x					y
+Predicted as error-free		 z					w	
+
+
+error misclassification = (y)/(x+y)
+error-free misclassification = (z)/(z+w)
+overall accuracy = (x+y)/(x+y+z+w)
+
+Area under curve:
+graph with x axis as false positive rate and y axis as true positive rate
+
